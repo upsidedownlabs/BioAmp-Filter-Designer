@@ -41,7 +41,7 @@ https://en.wikipedia.org/wiki/Digital_filter#Direct_form_II
 
 ################################################################
 # Standard Python libraries.
-import sys, argparse, logging
+import sys, argparse, logging, os
 
 # Set up debugging output.
 # logging.getLogger().setLevel(logging.DEBUG)
@@ -424,6 +424,7 @@ if __name__ == "__main__":
     else:
         filename = args.out
 
+    os.makedirs(os.path.dirname(filename), exist_ok=True) if os.path.dirname(filename) else None
     with open(filename, "w") as stream:
         emit_filter_code(stream, funcname, sos, args.type, args.rate, freqs, args.order, args.language)
 
