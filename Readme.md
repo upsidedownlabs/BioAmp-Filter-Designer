@@ -7,7 +7,8 @@ BioAmp Filter Designer is a Python-based tool that helps you design, visualize, 
 ## Features
 
 - Interactive GUI for designing filters  
-- Supports multiple filter types (Low-pass, High-pass, Band-pass, Band-stop)  
+- Supports multiple filter types (Low-pass, High-pass, Band-pass, and Band-stop)  
+
 - Export designed filter for integration into hardware or software projects  
 
 ---
