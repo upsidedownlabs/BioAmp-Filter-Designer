@@ -57,7 +57,8 @@ This creates a folder named `.venv` containing a clean Python environment.
 On Windows (PowerShell):
 
 ```powershell
-.venv\\Scripts\\activate
+.venv\Scripts\activate
+
 ```
 
 On macOS / Linux:
