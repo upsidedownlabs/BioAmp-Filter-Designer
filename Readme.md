@@ -67,9 +67,9 @@ python --version
 pip --version
 
 
- ```
+```
 
- ### 3. Create a Virtual Environment
+### 3. Create a Virtual Environment
 
 Creating a virtual environment ensures dependencies are isolated from your system Python:
 
